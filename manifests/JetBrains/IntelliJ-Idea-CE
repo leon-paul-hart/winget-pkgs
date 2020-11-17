@@ -1,0 +1,16 @@
+Id: JetBrains.IntelliJ-Idea-CE
+Publisher: JetBrains
+Name: IntelliJ-Idea-CE
+Version: 2020.2.3
+License: Includes an evaluation license key for a free 30-day trial of any JetBrains desktop tool.
+InstallerType: EXE
+Description: Install IntelliJ Idea Community Edition IDE.
+Homepage: https://www.jetbrains.com/idea/
+Installers:
+  - Arch: x86
+    InstallerType: EXE
+    Switches:
+      Silent: /S
+      SilentWithProgress: /S
+    Url: https://download.jetbrains.com/idea/ideaIC-2020.2.3.exe
+    Sha256: 2a98e6a91861fa01b25501046db13269b214ed6422fcfe3b87b5481b69e0d193
