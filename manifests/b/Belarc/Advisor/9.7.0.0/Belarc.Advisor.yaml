@@ -1,0 +1,26 @@
+# Automatically updated by the winget bot at 2021/Apr/27
+PackageIdentifier: Belarc.Advisor
+PackageVersion: 9.7.0.0
+PackageName: Advisor
+Publisher: Belarc
+License: Copyright (c) Belarc Inc.
+Moniker: advisor
+Tags:
+- advisor
+- belarc
+- benchmark
+- info
+- profile
+- profiling
+ShortDescription: The Belarc Advisor builds a detailed profile of your installed software and hardware, network inventory, any missing Microsoft hotfixes, anti-virus status, security benchmarks, and displays the results in your Web browser.
+Installers:
+- Architecture: x86
+  InstallerUrl: https://downloads.belarc.com/advisor/advisorinstaller.exe
+  InstallerSha256: 74265BAE11010EB4D702DA40B9BC310A8374144D0980E211C25A89043C07343A
+  InstallerType: exe
+  InstallerSwitches:
+    Silent: /s
+    SilentWithProgress: /s
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.0.0
